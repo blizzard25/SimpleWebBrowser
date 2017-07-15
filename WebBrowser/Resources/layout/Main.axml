@@ -2,6 +2,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80px">
+        <EditText
+            android:layout_width="600px"
+            android:layout_height="match_parent"
+            android:text="http://www.google.com"
+            android:id="@+id/editText1" />
+        <Button
+            android:text="B"
+            android:layout_width="80px"
+            android:layout_height="match_parent"
+            android:id="@+id/btnBack" />
+        <Button
+            android:text="F"
+            android:layout_width="80px"
+            android:layout_height="match_parent"
+            android:id="@+id/btnForward" />
+    </LinearLayout>
+    <android.webkit.WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView1" />
 </LinearLayout>
